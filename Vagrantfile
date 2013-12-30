@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # doesn't already exist on the user's system.
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
-  config.vm.synced_folder "bnc87", "/home/vagrant/bnc87"
+  config.vm.synced_folder "kbence", "/home/vagrant/kbence"
 
   config.vm.provision :docker do |d|
   end
