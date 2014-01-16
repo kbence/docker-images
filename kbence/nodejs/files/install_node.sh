@@ -6,3 +6,4 @@ ls
 
 ./configure
 make -j2 install
+rm -rf /usr/src/node-*
