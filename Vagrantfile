@@ -17,9 +17,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   config.vm.synced_folder "kbence", "/home/vagrant/kbence"
+  config.vm.synced_folder "bin", "/home/vagrant/bin"
 
-  config.vm.provision :docker do |d|
-  end
+  config.vm.provision :docker do end
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
