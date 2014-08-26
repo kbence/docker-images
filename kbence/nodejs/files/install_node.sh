@@ -5,5 +5,5 @@ cd /usr/src/node-*
 ls
 
 ./configure
-make -j2 install
+make -j1 install
 rm -rf /usr/src/node-*
