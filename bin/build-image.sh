@@ -8,4 +8,4 @@ if [ $# -ge 1 ]; then
 fi
 
 
-docker build -rm -t "$IMAGE" $IMAGE
+docker build -rm -t "$TAG" $IMAGE
